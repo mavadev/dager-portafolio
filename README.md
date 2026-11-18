@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img alt="Expense Tracker Interface" src="https://github.com/user-attachments/assets/40d97034-427c-4488-94e7-65b45c4c05a0" />
+</p>
 
-## Getting Started
+> Interfaz oscura, dinámica y 100% responsiva con animaciones interactivas impulsadas por Framer Motion.
 
-First, run the development server:
+# Dager Portfolio 🐶🎸
+
+### 📖 Descripción
+
+**Dager Portfolio** es una aplicación web interactiva y moderna desarrollada con Next.js 15 (App Router), TypeScript / JavaScript y Tailwind CSS. Está concebida como un desafío y proyecto creativo inspirado en el universo, el contenido y el estilo único de Dog Dager (Mariano Atravesado), integrando animaciones fluidas, galerías visuales, secciones dinámicas y componentes interactivos.
+
+---
+
+### ✨ Características
+
+- ⚡ **Next.js 15 (App Router):** Aprovechamiento de las últimas características del framework con renderizado optimizado y turbopack.
+- ✨ **Animaciones Fluidas:** Transiciones y efectos visuales dinámicos integrados mediante Framer Motion.
+- 🎨 **Diseño Temático Adaptativo:** Estética moderna en modo oscuro con componentes personalizados y tipografías cuidadas.
+- 🖼️ **Galería Interactiva:** Secciones de poses exclusivas, canales, y componentes multimedia (react-image-gallery).
+- 📱 **Diseño Full Responsive:** Experiencia de usuario optimizada para dispositivos móviles, tablets y escritorios.
+
+---
+
+### 🏗️ Arquitectura del proyecto
+
+La aplicación sigue la estructura modular del App Router de Next.js, organizada por capas de componentes, secciones y datos estáticos:
+
+```text
+src/
+├── app/
+│   ├── fonts/          # Tipografías personalizadas (Geist)
+│   ├── sections/       # Secciones principales de la landing (Hero, AboutMe, Canales, ConectaConmigo)
+│   ├── globals.css     # Estilos globales y configuración de Tailwind
+│   ├── layout.js       # Layout principal de la aplicación
+│   └── page.js         # Página de inicio
+├── components/         # Componentes UI reutilizables (Header, Footer, Menu, Loader, LumberGame)
+├── data/               # Fuentes de datos estáticos (channels, menuData, socials)
+├── lib/                # Utilidades generales (clsx, twMerge)
+└── public/             # Recursos estáticos (imágenes de galería, canales y banners)
+```
+
+---
+
+### 💻 Instalación local
+
+**1. Clona el repositorio:**
+
+```bash
+git clone https://github.com/mavadev/dager-portfolio.git
+cd dager-portfolio
+```
+
+**2. Instala las dependencias:**
+
+```bash
+npm install
+```
+
+**3. Ejecuta el servidor de desarrollo:**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**4. La aplicación estará disponible en: `http://localhost:3000`**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🌐 Despliegue & Producción
 
-## Learn More
+El proyecto está optimizado para desplegarse fácilmente en plataformas como **Netlify** o **Vercel**.
 
-To learn more about Next.js, take a look at the following resources:
+**Stack del Proyecto:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![Stack](https://skillicons.dev/icons?i=nextjs,tailwind)](https://skillicons.dev)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+### 📄 Licencia
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este proyecto se distribuye bajo la licencia **MIT**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Desarrollado con ❤️ por **Gianmarco Chistama**
